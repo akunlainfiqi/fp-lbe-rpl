@@ -1,0 +1,29 @@
+/* Card */
+@media screen and (min-width: 680px) {
+    .to-do-card {
+        width: 551px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .to-do-card {
+        min-width: 380px;
+        min-height: 540px;
+    }
+}
+
+/* Fonts */
+@media screen and (max-width: 680px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    #add-task::placeholder,
+    #add-task[type=text] {
+        font-size: 18px;
+    }
+}

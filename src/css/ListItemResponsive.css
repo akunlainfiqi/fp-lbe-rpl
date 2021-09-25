@@ -1,0 +1,9 @@
+@media screen and (max-width: 680px) {
+    .task-wrapper {
+        margin: 10px 35px;
+    }
+
+    .new-list {
+        font-size: 16px;
+    }
+}

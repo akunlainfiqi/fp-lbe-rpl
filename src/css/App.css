@@ -1,0 +1,119 @@
+h1 {
+  color: #1D3C45;
+
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 56px;
+}
+
+h2 {
+  color: #1D3C45;
+
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  padding: 48px 0px;
+
+  background: linear-gradient(297.21deg, 
+  #F4B266 0.6%, 
+  rgba(255, 225, 190, 0.848958) 66.3%, 
+  rgba(247, 210, 168, 0) 102.46%);
+}
+
+.to-do-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.to-do-card {
+  min-height: 770px;
+
+  background: #FFF1E1;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 2px solid #F7D2A8;
+}
+
+section {
+  padding: 20px 37px;
+}
+
+#to-do-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#add-task {
+  width: 75%;
+  height: 60px;
+
+  background: #DDC3A5;
+  border: none;
+  border-radius: 15px 0px 0px 15px;
+
+  outline: 0;
+}
+
+#add-task::placeholder {
+  color: rgba(29, 60, 69, 0.6);
+
+  font-family: Hind, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px; 
+}
+
+#add-task[type=text] {
+  padding-left: 29px;
+
+  color: rgba(29, 60, 69, 1.0);
+
+  font-family: Hind, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px; 
+}
+
+#button-new {
+  width: 15%;
+  height: 62px;
+
+  background: #DDC3A5;
+
+  border: 0px;
+  border-left: 1.5px solid #F7D2A8;;
+  border-radius: 0px 15px 15px 0px;
+}
+
+#button-new > i {
+  color: #1D3C45;
+
+  transform: scale(2);
+}
+
+#add-task:hover,
+#button-new:hover {
+  background-color: #D5B087;
+}

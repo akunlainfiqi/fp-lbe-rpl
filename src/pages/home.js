@@ -1,6 +1,8 @@
+import Weathercard from "../components/Weathercard.js";
+
 const Home = () =>{
     return(
-        <div>Konten Home</div>
+        <Weathercard/>
     )
 }
 

@@ -13,7 +13,6 @@ const Routes=()=>{
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/todo" component={Todo}/>
-
                 <Redirect from="*" to="/"/>
             </Switch>
         </Router>

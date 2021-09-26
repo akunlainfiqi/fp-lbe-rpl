@@ -41,12 +41,20 @@ div {
   rgba(247, 210, 168, 0) 102.46%);
   backdrop-filter: blur(10rem);
   border-radius: 4rem;
+
+  box-shadow: 4px 10px 18px 0px #352302;
 }
 @media (min-width:600px) {
   .weather-container {
     flex-direction: row;
   }
 }
+
+.navbar {
+  width: 100%;
+  justify-content: center;
+}
+
 .navbar,.suhu-container, .task-wrapper{
   flex-direction: row;
 }
@@ -55,11 +63,21 @@ div {
 }
 h2{
   font-size: 2em;
+  padding: 1.5rem 0;
 }
 
 .navbar-component{
+  margin: 0 4rem;
   padding: 0 1rem;
+
+  transition-duration: 0.4s;
 }
+
+.navbar-component:hover {
+  transition-duration: 0.4s;
+  transform: scale(1.25);
+}
+
 a:active{
   font-weight: 900;
 }
@@ -71,6 +89,8 @@ a:active{
 }
 
 .to-do-card {
+  min-height: 480px;
+
   background: #FFF1E1;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
@@ -148,7 +168,7 @@ button > i {
 }
 #button-new {
   width: 15%;
-  height: 3rem;
+  height: 3.125rem;
 
   background: #DDC3A5;
   border: 0px;
@@ -173,4 +193,16 @@ button > i {
 }
 .list-container::-webkit-scrollbar{
   display:none;
+}
+
+input::placeholder {
+  font-size: 1.2rem;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+
+  border-bottom: 2px solid #F4B266;
+
 }

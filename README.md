@@ -10,8 +10,4 @@
 
 ## Todolist
 
-- [ ] Home
-- [ ] Todolist
-- [ ] Fetch API
-- [ ] Styling
-- [ ] Demo
+- udah kelar lbe gan
